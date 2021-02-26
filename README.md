@@ -35,4 +35,5 @@ module vpc {
 | crn | The CRN of the VPC.  | 
 | default_security_group | The ID for the default VPC Security group. |
 | default_network_acl | The ID for the default VPC Network ACL |
+| subnets | A list of subnets that are attached to a VPC. | 
 | cse_source_addresses | A list of the cloud service endpoints that are associated with your VPC, including their source IP address and zone. | 
