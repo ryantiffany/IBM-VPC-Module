@@ -37,3 +37,7 @@ module vpc {
 | default_network_acl | The ID for the default VPC Network ACL |
 | subnets | A list of subnets that are attached to a VPC. | 
 | cse_source_addresses | A list of the cloud service endpoints that are associated with your VPC, including their source IP address and zone. | 
+
+
+## Status
+[![Build Status](https://drone.lab.tiffany-family.net/api/badges/ryantiffany/IBM-VPC-Module/status.svg)](https://drone.lab.tiffany-family.net/ryantiffany/IBM-VPC-Module)
