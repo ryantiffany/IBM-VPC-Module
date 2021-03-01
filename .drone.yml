@@ -1,6 +1,6 @@
 kind: pipeline
 type: docker
-name: plugintest
+name: plugintest-v1
 
 steps:
 - name: test vpc deployment
