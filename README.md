@@ -22,7 +22,7 @@ module vpc {
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | name | Name of the VPC | `string` | n/a | yes |
-| resource\_group\_id | ID of the resource group to associate with the virtual server instance | `string` | n/a | yes |
+| resource\_group | ID of the resource group to associate with the virtual server instance | `string` | n/a | yes |
 | address\_prefix\_management | Indicates whether a default address prefix should be created automatically (auto) or manually (manual) for each zone in this VPC | `string` | `auto` | no |
 | classic\_access | Specify if you want to create a VPC that can connect to classic infrastructure resources. | `string` | `false` | no |
 | tags | List of tags to add on all created resources | `list(string)` | `[]` | no |
